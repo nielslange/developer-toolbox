@@ -22,4 +22,6 @@ $start  = microtime( true );
 $result = linear_search( $data, 100 );
 printf( 'Total execution time in seconds: %s', microtime( true ) - $start );
 
-print( $result );
+print( '<pre>' );
+print_r( $result );
+print( '</pre>' );
