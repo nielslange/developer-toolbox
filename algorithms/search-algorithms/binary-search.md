@@ -25,7 +25,11 @@ function binarySearch(list: number[], element: number): number | null {
 
   return null;
 }
+```
 
+#### Usage
+
+```typescript
 const list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(binarySearch(list, 3));  // Outputs: 2
 console.log(binarySearch(list, 11)); // Outputs: null
