@@ -44,7 +44,7 @@ const root = new SearchNode('A', [
   ])
 ]);
 
-breadthFirstSearch(root);
+breadthFirstSearch(root); // Outputs: "A" "B" "C" "D" "E" "F"
 ```
 
 In this example, the `breadthFirstSearch` function takes in a root node as an argument and uses a queue to store the nodes that are waiting to be processed. It processes each node by printing its value to the console, and adds its children to the end of the queue. This process continues until all the nodes have been processed.
