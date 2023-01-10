@@ -1,0 +1,2 @@
+# Double-checked Locking
+
