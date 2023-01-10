@@ -31,14 +31,18 @@ function binarySearch(arr: number[], low: number, high: number, target: number):
   }
   return -1;
 }
-
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(exponentialSearch(arr, 5)); // 4
-console.log(exponentialSearch(arr, 11)); // -1
 ```
 
 The `exponentialSearch()` function starts by checking if the target element is the first element in the array. If it is, it returns `0`. Otherwise, it uses a loop to double `i` until `arr[i]` is greater than the target element or `i` is greater than or equal to the length of the array. It then calls the `binarySearch()` function on the portion of the array from `arr[i / 2]` to the minimum of `arr[i]` and the last element in the array.
 
 The `binarySearch()` function is a standard implementation of binary search, which is a search algorithm that works by repeatedly dividing the search space in half until the target element is found or it is determined that the element is not in the array.
+
+#### Usage
+
+```typescript
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(exponentialSearch(arr, 5)); // 4
+console.log(exponentialSearch(arr, 11)); // -1
+```
 
 This code searches for the value `5` in the sorted array `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`. The `exponentialSearch()` function should return `4`, which is the index of `5` in the array. It also searches for the value `11`, which is not in the array, and should return `-1`.
