@@ -48,4 +48,4 @@ Space complexity described how much space or memory an algorithm needs to be com
 * [https://www.geeksforgeeks.org/jump-search/](https://href.li/?https://www.geeksforgeeks.org/jump-search/)
 * [https://www.geeksforgeeks.org/linear-search/](https://href.li/?https://www.geeksforgeeks.org/linear-search/)
 * [https://www.geeksforgeeks.org/sublist-search-search-a-linked-list-in-another-list/](https://href.li/?https://www.geeksforgeeks.org/sublist-search-search-a-linked-list-in-another-list/)
-* \
+
