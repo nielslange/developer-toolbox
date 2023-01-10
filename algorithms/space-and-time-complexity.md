@@ -1,3 +1,9 @@
+---
+description: >-
+  Space complexity is a measure of how much memory an algorithm uses, while time
+  complexity is a measure of how long it takes to run.
+---
+
 # Space and time complexity
 
 ### Time complexity

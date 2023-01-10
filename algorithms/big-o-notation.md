@@ -1,13 +1,26 @@
+---
+description: >-
+  Big O notation is a way of representing the performance of an algorithm,
+  indicating how long it takes to run based on the size of the input.
+---
+
 # Big O notation
 
-The title of this post is a bit misleading, as the Big O notation is only one part of the so-called [asymptotic notations](https://href.li/?https://en.wikipedia.org/wiki/Big\_O\_notation#Related\_asymptotic\_notations). The following asymptotic notations are commonly used in computer science:
+Big O notation is a way of expressing the complexity of an algorithm, which tells you how long an algorithm will take to run as a function of the size of the input. It's often used to compare the performance of different algorithms, since it allows you to compare the number of steps that each algorithm takes to solve a problem of a given size.
 
-* Worst case → Big O (O) → `f(n) = O(g(n)) as n → ∞ when f(n) ≥ M * g(n) for all n ≥ n₀`
-* Big Ω (Omega) → Best case → `f(n) = Ω(g(n)) as n → ∞ when f(n) ≤ M * g(n) for all n ≥ n₀`
-* Big Θ (Theta) → Average case → `f(n) = Θ(g(n)) when f(n) = O(g(n)) and f(n) = Ω(g(n))`
+In general, the complexity of an algorithm is described using "big O" notation, which gives an upper bound on the number of steps that the algorithm takes. For example, an algorithm with a complexity of O(n) will take at most a certain number of steps for every input size n.
+
+There are several common complexities that you might see when analysing algorithms, including:
+
+* O(1): Constant time. This means that the algorithm always takes the same amount of time, no matter how large the input is.
+* O(log n): Logarithmic time. This means that the algorithm's running time increases logarithmically with the size of the input.
+* O(n): Linear time. This means that the algorithm's running time increases linearly with the size of the input.
+* O(n log n): Linear logarithmic time. This means that the algorithm's running time increases with the size of the input, but at a slower rate than linear time.
+* O(n^2): Quadratic time. This means that the algorithm's running time increases with the square of the size of the input.
+* O(n^3): Cubic time. This means that the algorithm's running time increases with the cube of the size of the input.
+* O(2^n): Exponential time. This means that the algorithm's running time increases exponentially with the size of the input.
+* O(n!): Factorial time. This means that the algorithm's running time increases with the factorial of the size of the input. This is an extremely slow-running algorithm, and is usually not practical for real-world use.
 
 The following video explains the Big O notation very well:
 
-{% embed url="https://youtu.be/RGuJga2Gl_k" %}
-
-So, why is the Big O notation so important, and what is it used for? In computer science, it’s used to calculate the [time and space complexity](https://href.li/?http://time%20and%20space%20complexity), which allows determining the best algorithm for solving a certain problem.\
+\
