@@ -49,6 +49,7 @@ The inner loop uses the value of `fibM` to determine the size of the current sub
 #### Usage
 
 ```typescript
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(fibonacciSearch(arr, 5)); // 4
 console.log(fibonacciSearch(arr, 11)); // -1
 ```
