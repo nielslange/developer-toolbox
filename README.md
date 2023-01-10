@@ -6,3 +6,5 @@ coverY: 289
 
 # Developer Toolbox
 
+The Developer Toolbox is a collection of various tools and resources that helps me to build and maintain applications. It includes algorithms for solving common programming problems, data structures for organising and storing information, programming languages for writing code, design patterns for creating reusable solutions to common problems, and more. These tools and resources help me to work more efficiently and effectively.
+
