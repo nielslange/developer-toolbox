@@ -22,7 +22,11 @@ function depthFirstSearch(node: Node, target: any): boolean {
 
   return false;
 }
+```
 
+#### Usage
+
+```typescript
 const root = new Node('A', [
   new Node('B', [
     new Node('D', []),
