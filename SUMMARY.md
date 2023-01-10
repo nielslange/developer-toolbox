@@ -28,3 +28,26 @@
   * [Radix Sort](algorithms/sorting-algorithms/radix-sort.md)
   * [Shell Sort 🏆](algorithms/sorting-algorithms/shell-sort.md)
   * [Selection Sort](algorithms/sorting-algorithms/selection-sort.md)
+
+## Data Structures
+
+* [Arrays](data-structures/arrays.md)
+* [Linked Lists](data-structures/linked-lists.md)
+* [Stacks](data-structures/stacks.md)
+* [Queues](data-structures/queues.md)
+* [Hash Tables](data-structures/hash-tables.md)
+* [Trees](data-structures/trees.md)
+* [Heaps](data-structures/heaps.md)
+* [Graphs](data-structures/graphs.md)
+
+## Design Patterns
+
+* [Creational patterns](design-patterns/creational-patterns/README.md)
+  * [Abstract Factory](design-patterns/creational-patterns/abstract-factory.md)
+  * [Builder](design-patterns/creational-patterns/builder.md)
+  * [Factory Method](design-patterns/creational-patterns/factory-method.md)
+  * [Prototype](design-patterns/creational-patterns/prototype.md)
+  * [Singleton](design-patterns/creational-patterns/singleton.md)
+* [Structural patterns](design-patterns/structural-patterns.md)
+* [Behavioural patterns](design-patterns/behavioural-patterns.md)
+* [Concurrency patterns](design-patterns/concurrency-patterns.md)
