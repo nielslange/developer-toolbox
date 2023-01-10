@@ -21,6 +21,4 @@ There are several common complexities that you might see when analysing algorith
 * `O(2^n)`: Exponential time. This means that the algorithm's running time increases exponentially with the size of the input.
 * `O(n!)`: Factorial time. This means that the algorithm's running time increases with the factorial of the size of the input. This is an extremely slow-running algorithm, and is usually not practical for real-world use.
 
-The following video explains the Big O notation very well:
-
 \
