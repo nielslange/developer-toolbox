@@ -1,4 +1,4 @@
-# Arrays
+# Array
 
 An array is a linear data structure that stores a collection of elements of the same data type. Arrays are used to store multiple values in a single variable, rather than declaring separate variables for each value.
 

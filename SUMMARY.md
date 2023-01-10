@@ -31,14 +31,14 @@
 
 ## Data Structures
 
-* [Arrays](data-structures/arrays.md)
-* [Linked Lists](data-structures/linked-lists.md)
-* [Stacks](data-structures/stacks.md)
-* [Queues](data-structures/queues.md)
-* [Hash Tables](data-structures/hash-tables.md)
-* [Trees](data-structures/trees.md)
-* [Heaps](data-structures/heaps.md)
-* [Graphs](data-structures/graphs.md)
+* [Array](data-structures/array.md)
+* [Linked List](data-structures/linked-list.md)
+* [Stack](data-structures/stack.md)
+* [Queue](data-structures/queue.md)
+* [Hash Table](data-structures/hash-table.md)
+* [Tree](data-structures/tree.md)
+* [Heap](data-structures/heap.md)
+* [Graph](data-structures/graph.md)
 
 ## Design Patterns
 
