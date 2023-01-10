@@ -6,7 +6,7 @@ description: >-
 
 # Big O notation
 
-Big O notation is a way of expressing the complexity of an algorithm, which tells you how long an algorithm will take to run as a function of the size of the input. It's often used to compare the performance of different algorithms, since it allows you to compare the number of steps that each algorithm takes to solve a problem of a given size.
+Big O notation is a way of expressing the complexity of an algorithm and is often used to compare the performance of different algorithms, since it allows you to compare the number of steps that each algorithm takes to solve a problem of a given size.
 
 In general, the complexity of an algorithm is described using "big O" notation, which gives an upper bound on the number of steps that the algorithm takes. For example, an algorithm with a complexity of O(n) will take at most a certain number of steps for every input size n.
 
