@@ -7,11 +7,11 @@ To implement the Breadth First Search, you would typically use a queue data stru
 ### Example in TypeScript
 
 ```typescript
-function breadthFirstSearch(root: Node): void {
+function breadthFirstSearch(root: SearchNode): void {
   const queue = [root];
 
   while (queue.length > 0) {
-    const current = queue.shift();
+    const current: any = queue.shift();
     console.log(current.value);
 
     for (const child of current.children) {
@@ -20,23 +20,27 @@ function breadthFirstSearch(root: Node): void {
   }
 }
 
-class Node {
+class SearchNode {
   value: string;
-  children: Node[];
+  children: SearchNode[];
 
-  constructor(value: string, children: Node[]) {
+  constructor(value: string, children: SearchNode[]) {
     this.value = value;
     this.children = children;
   }
 }
+```
 
-const root = new Node('A', [
-  new Node('B', [
-    new Node('D', []),
-    new Node('E', [])
+#### Usage
+
+```typescript
+const root = new SearchNode('A', [
+  new SearchNode('B', [
+    new SearchNode('D', []),
+    new SearchNode('E', [])
   ]),
-  new Node('C', [
-    new Node('F', [])
+  new SearchNode('C', [
+    new SearchNode('F', [])
   ])
 ]);
 
