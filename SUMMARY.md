@@ -14,6 +14,7 @@
   * [Fibonacci Search](algorithms/search-algorithms/fibonacci-search.md)
   * [Interpolation Search](algorithms/search-algorithms/interpolation-search.md)
   * [Jump Search](algorithms/search-algorithms/jump-search.md)
+  * [Knuth–Morris–Pratt](algorithms/search-algorithms/knuth-morris-pratt.md)
   * [Linear Search](algorithms/search-algorithms/linear-search.md)
   * [Sublist Search](algorithms/search-algorithms/sublist-search.md)
 * [Sorting Algorithms](algorithms/sorting-algorithms/README.md)
