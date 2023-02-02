@@ -30,16 +30,10 @@
   * [Shell Sort 🏆](algorithms/sorting-algorithms/shell-sort.md)
   * [Selection Sort](algorithms/sorting-algorithms/selection-sort.md)
 
-## Data Structures
+## Array functions
 
-* [Array](data-structures/array.md)
-* [Linked List](data-structures/linked-list.md)
-* [Stack](data-structures/stack.md)
-* [Queue](data-structures/queue.md)
-* [Hash Table](data-structures/hash-table.md)
-* [Tree](data-structures/tree.md)
-* [Heap](data-structures/heap.md)
-* [Graph](data-structures/graph.md)
+* [concat()](array-functions/concat.md)
+* [map()](array-functions/map.md)
 
 ## Design Patterns
 
@@ -88,3 +82,14 @@
   * [Scheduler Pattern](design-patterns/concurrency-patterns/scheduler-pattern.md)
   * [Thread Pool Pattern](design-patterns/concurrency-patterns/thread-pool-pattern.md)
   * [Thread-local Storage](design-patterns/concurrency-patterns/thread-local-storage.md)
+
+## Data Structures
+
+* [Array](data-structures/array.md)
+* [Linked List](data-structures/linked-list.md)
+* [Stack](data-structures/stack.md)
+* [Queue](data-structures/queue.md)
+* [Hash Table](data-structures/hash-table.md)
+* [Tree](data-structures/tree.md)
+* [Heap](data-structures/heap.md)
+* [Graph](data-structures/graph.md)
