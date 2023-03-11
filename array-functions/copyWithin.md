@@ -15,5 +15,5 @@ In this example, we have an array `arr` containing the numbers 1 through 5. We t
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin
-- https://www.w3schools.com/jsref/jsref_copywithin.asp
+- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+- [w3schools.com](https://www.w3schools.com/jsref/jsref_copywithin.asp)

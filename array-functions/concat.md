@@ -16,5 +16,5 @@ In this example, we have two arrays `arr1` and `arr2` which contain the strings 
 
 ## References
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
-- https://www.w3schools.com/jsref/jsref_concat_string.asp
+- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+- [w3schools.com](https://www.w3schools.com/jsref/jsref_concat_string.asp)
