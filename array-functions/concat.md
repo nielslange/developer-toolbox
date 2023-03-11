@@ -13,3 +13,8 @@ console.log(arr3); // Output: ["hello", "world"]
 ```
 
 In this example, we have two arrays `arr1` and `arr2` which contain the strings "hello" and "world" respectively. We then use the `concat()` method to join the two arrays together and store the result in a new array `arr3`. Finally, we log the contents of arr3 to the console, which outputs `["hello", "world"]`.
+
+## References
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+- https://www.w3schools.com/jsref/jsref_concat_string.asp
