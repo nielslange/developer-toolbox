@@ -1,8 +1,15 @@
+---
+description: >-
+  Breadth-first search is an algorithm for traversing or searching tree or graph
+  data structures, exploring all neighbor nodes at the present depth before
+  moving to nodes at the next depth level.
+---
+
 # Breadth First Search
 
-Breadth First Search (BFS) is an algorithm that is used to traverse a tree or graph data structure. It starts at the root node and explores all the neighbouring nodes at the current depth level before moving on to the nodes at the next depth level.
+Breadth-first search (BFS) is an algorithm that is used to traverse a tree or graph data structure. It starts at the root node and explores all the neighbouring nodes at the current depth level before moving on to the nodes at the next depth level.
 
-To implement the Breadth First Search, you would typically use a queue data structure to store the nodes that are waiting to be processed. At each step, you would remove the first node from the queue, process it, and add its children to the end of the queue. This process continues until all the nodes have been processed.
+To implement the breadth-first search, you would typically use a queue data structure to store the nodes that are waiting to be processed. At each step, you would remove the first node from the queue, process it, and add its children to the end of the queue. This process continues until all the nodes have been processed.
 
 ### Example in TypeScript
 
