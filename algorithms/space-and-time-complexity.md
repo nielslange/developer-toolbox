@@ -22,17 +22,17 @@ Space complexity described how much space or memory an algorithm needs to be com
 
 #### Time and space complexity of search algorithms
 
-| Search algorithm                                                                                     | Time / Big-O     | Time / Big-Ω | Time / Big-Θ | Space / Big-O |
-| ---------------------------------------------------------------------------------------------------- | ---------------- | ------------ | ------------ | ------------- |
-| [Binary Search](search-algorithms/binary-search.md)                                                  | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
-| [Breadth First Search](search-algorithms/breadth-first-search.md)                                    | `O(\|V\|+\|E\|)` |              |              | `O(\|V\|)`    |
-| [Depth First Search](search-algorithms/depth-first-search.md)                                        | `O(\|V\|+\|E\|)` |              |              | `O(\|V\|)`    |
-| [Exponential Sear](search-algorithms/exponential-search.md)ch                                        | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
-| [Fibonacci Search](search-algorithms/fibonacci-search.md)                                            | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
-| [Interpolation Search](search-algorithms/interpolation-search.md)                                    | `O(log log n)`   |              |              |               |
-| [Jump Search](search-algorithms/jump-search.md)                                                      | `O(sqrt(n))`     |              |              | `O(1)`        |
-| [Linear Search](https://codenex.wordpress.com/2021/01/24/developer-toolbox-%E2%86%92-linear-search/) | `O(n)`           | `Ω(1)`       | `Θ(n/2)`     | `O(1)`        |
-| [Sublist Search](search-algorithms/sublist-search.md)                                                | `O(m*n)`         |              |              |               |
+| Search algorithm                                                                                         | Time / Big-O     | Time / Big-Ω | Time / Big-Θ | Space / Big-O |
+| -------------------------------------------------------------------------------------------------------- | ---------------- | ------------ | ------------ | ------------- |
+| [Binary Search](search-algorithms/binary-search.md)                                                      | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
+| [Breadth First Search](search-algorithms/breadth-first-search.md)                                        | `O(\|V\|+\|E\|)` |              |              | `O(\|V\|)`    |
+| [Depth First Search](search-algorithms/depth-first-search.md)                                            | `O(\|V\|+\|E\|)` |              |              | `O(\|V\|)`    |
+| [Exponential Sear](search-algorithms/exponential-search.md)[ch](search-algorithms/exponential-search.md) | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
+| [Fibonacci Search](search-algorithms/fibonacci-search.md)                                                | `O(log n)`       | `Ω(1)`       | `Θ(log n)`   | `O(1)`        |
+| [Interpolation Search](search-algorithms/interpolation-search.md)                                        | `O(log log n)`   |              |              |               |
+| [Jump Search](search-algorithms/jump-search.md)                                                          | `O(sqrt(n))`     |              |              | `O(1)`        |
+| [Linear Search](https://codenex.wordpress.com/2021/01/24/developer-toolbox-%E2%86%92-linear-search/)     | `O(n)`           | `Ω(1)`       | `Θ(n/2)`     | `O(1)`        |
+| [Sublist Search](search-algorithms/sublist-search.md)                                                    | `O(m*n)`         |              |              |               |
 
 ### Links
 
