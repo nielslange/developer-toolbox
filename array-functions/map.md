@@ -1,8 +1,8 @@
-### `map()`
+# `map()`
 
 The `map()` method is a higher-order function that creates a **new array** by applying a callback function to each element of an existing array.
 
-#### Example:
+## Example
 
 ```typescript
 const numbers: number[] = [1, 2, 3, 4, 5];
