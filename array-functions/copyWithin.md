@@ -5,10 +5,10 @@ The `copyWithin()` method copies a sequence of elements within an array and past
 ## Example
 
 ```typescript
-const arr: number[] = [1, 2, 3, 4, 5];
-arr.copyWithin(2, 0, 2);
+const arr: number[] = [ 1, 2, 3, 4, 5 ];
+arr.copyWithin( 2, 0, 2 );
 
-console.log(arr); // Output: [1, 2, 1, 2, 5]
+console.log( arr ); // Output: [1, 2, 1, 2, 5]
 ```
 
 - The first argument (`2`) is the target index where the copied elements will be placed.
