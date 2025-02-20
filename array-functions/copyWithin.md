@@ -1,19 +1,19 @@
-# copyWithin()
+# `copyWithin()`
 
-`copyWithin()` is a built-in method in TypeScript that allows you to copy a sequence of elements within an array and paste them to a different location within the same array. This method modifies the original array in place and returns a reference to the modified array.
+The `copyWithin()` method copies a sequence of elements within an array and pastes them at a specified position **in-place**, modifying the original array.
 
 ## Example
 
-```ts
+```typescript
 const arr: number[] = [1, 2, 3, 4, 5];
 arr.copyWithin(2, 0, 2);
 
 console.log(arr); // Output: [1, 2, 1, 2, 5]
 ```
 
-In this example, we have an array `arr` containing the numbers 1 through 5. We then use the `copyWithin()` method to copy the first two elements of the array (1 and 2) and paste them starting at the third position of the array (index 2). The second argument of `copyWithin()` is the starting index where the copying begins, and the third argument is the ending index (exclusive) of the sequence to be copied. Finally, we log the contents of arr to the console, which outputs `[1, 2, 1, 2, 5]`. As you can see, the first two elements of `arr` were copied and pasted into the array starting at index 2, overwriting the original elements at those positions.
+Here’s how it works:
+- The first argument (`2`) is the target index where the copied elements will be placed.
+- The second argument (`0`) is the start index of the elements to be copied.
+- The third argument (`2`) is the exclusive end index of the copied elements.
 
-## References
-
-- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
-- [w3schools.com](https://www.w3schools.com/jsref/jsref_copywithin.asp)
+This modifies `arr` to `[1, 2, 1, 2, 5]` by copying elements `1` and `2` and placing them at index `2`, replacing the original values.
