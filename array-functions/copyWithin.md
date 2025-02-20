@@ -11,7 +11,6 @@ arr.copyWithin(2, 0, 2);
 console.log(arr); // Output: [1, 2, 1, 2, 5]
 ```
 
-Here’s how it works:
 - The first argument (`2`) is the target index where the copied elements will be placed.
 - The second argument (`0`) is the start index of the elements to be copied.
 - The third argument (`2`) is the exclusive end index of the copied elements.
